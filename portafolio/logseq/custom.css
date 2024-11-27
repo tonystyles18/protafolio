@@ -1,0 +1,61 @@
+.light-theme, html[data-theme=light] {--shadow-rgb: 0, 0, 0;--link-rgb: 10, 114, 167;}
+.dark-theme, html[data-theme=dark] {--shadow-rgb: 255, 255, 255;--link-rgb: 62, 164, 218;}
+
+.ls-block[data-refs-self*='"@'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {
+    font-family: 'tabler-icons';
+    color: var(--awSt-content-text-user, var(--ls-primary-text-color));
+    background-color: var(--awSt-content-bg-user, var(--ls-primary-background-color));
+    border-radius: 100%;
+    position: relative;
+    top: -8.5px;
+    left: -6px;
+    letter-spacing: 1px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 1px;}
+.ls-block[data-refs-self*='"@']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+    background-color: var(--ls-primary-background-color);
+    border-radius: 20%;
+    opacity: 100%;
+    box-shadow: 0px 0.35px 0.7px 1px rgba(var(--shadow-rgb), 0.4);
+}
+.ls-block[data-refs-self*='"@']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet {background-color: transparent;}
+.ls-block[data-refs-self*='"@']:not(:focus-within) .bullet {transform: none;}
+.ls-block[data-refs-self*='"@']>.flex.flex-row.pr-2>.block-control-wrap a:hover>.bullet-container {background-color: transparent;}
+.ls-block[data-refs-self*='"@']>.flex.flex-row.pr-2>.block-control-wrap a:hover>.bullet-container .bullet {background-color: transparent;}
+.ls-block[data-refs-self*='"@']>.flex.flex-row.pr-2>.block-control-wrap a:hover>.bullet-container .bullet {transform: none;}
+.ls-block[data-refs-self*='"@']>.flex.flex-row.pr-2>.block-control-wrap a:focus>.bullet-container .bullet {background-color: transparent;}
+.ls-block[data-refs-self*='"@']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed {background-color: transparent;}
+.ls-block[data-refs-self*='"@'] > div > .flex.flex-col.block-content-wrapper {padding-left: 2px;}
+
+/*Optional: hide tags with @*/
+a.tag[data-ref*="@"] {display: none;}
+
+/*Icons to be specified below. Choose a name like @foo
+and replace the content value like "\eaad" with the code
+of the desired icon. To find the code use TablerPicker plugin*/
+.ls-block[data-refs-self*='"@page'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {content: "\eaa4" !important;}
+.ls-block[data-refs-self*='"@folder'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {content: "\eaad" !important;}
+.ls-block[data-refs-self*='"@tag'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {content: "\eb34" !important;}
+.ls-block[data-refs-self*='"@query'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {content: "\eb1c" !important;}
+.ls-block[data-refs-self*='"@url'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {content: "\eade" !important;}
+.ls-block[data-refs-self*='"@index'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {content: "\eb6b" !important;}
+.ls-block[data-refs-self*='"@idea'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {content: "\ea51" !important;}
+.ls-block[data-refs-self*='"@person'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {content: "\ef68" !important;}
+.ls-block[data-refs-self*='"@book'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {content: "\ea39" !important;}
+
+
+/*Additionally #@page tag color the icon. Use both #@page and #@folder to color the folder icon
+.ls-block[data-refs-self*='"@pagina']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+    box-shadow: 0px 0.35px 0.7px 1px rgba(var(--link-rgb), 0.6);} */
+.ls-block[data-refs-self*='"@page']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+    background-color: var(--ls-primary-background-color);
+    border-radius: 20%;
+    opacity: 100%;
+    box-shadow: 0px 0.35px 0.7px 1px rgba(var(--link-rgb), 0.6);
+}
+.ls-block[data-refs-self*='"@page'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {
+    color: var(--awSt-link, var(--ls-link-text-color));}
+.ls-block[data-refs-self*='"@page']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+    box-shadow: 0px 0.35px 0.7px 1px rgba(var(--link-rgb), 0.6);}

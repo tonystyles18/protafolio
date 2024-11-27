@@ -1,0 +1,35 @@
+- **Este video es una introducción a un bootcamp gratuito de FullStack enfocado en aprender JavaScript y React desde cero.**
+- ### Contenido del Video
+- **Presentación del Bootcamp:**
+	- El curso es parte de un bootcamp gratuito de FullStack.
+	- Se lleva a cabo todos los domingos a las 8 pm hora peninsular española.
+	- Se destaca la importancia de JavaScript y React en el desarrollo web.
+	- Se invita a suscribirse y apoyar el canal.
+	- Se comparte un enlace al video de la clase anterior.
+- **Introducción a JavaScript:**
+	- Explicación de los tipos dinámicos y estáticos en JavaScript.
+	- JavaScript es un lenguaje de tipado dinámico, asignando tipos según el valor.
+	- Los tipos estáticos requieren declarar explícitamente el tipo de una variable.
+	- Introducción a la creación de funciones y variables en JavaScript.
+	- Importancia de la sintaxis correcta y evitar tratar variables como cadenas de texto.
+	- Ejemplo de creación de una función 'add' con parámetros y cuerpo.
+	- Explicación de la ejecución de funciones y su propósito.
+- **Herramientas y Entorno de Desarrollo:**
+	- Introducción al ejecutable 'mpx' para ejecutar paquetes sin instalación.
+	- Explicación de 'foot to foot' como gestor de paquetes.
+	- Comparación de 'mpx' con 'Jiang Jian'.
+- **React Components:**
+	- Creación de funciones y componentes como declaración o de otra manera.
+	- Flexibilidad en el estilo de codificación.
+	- Uso de variables dentro de componentes para almacenar datos.
+	- Introducción a JSX para evaluación dentro de componentes.
+	- Importancia de usar letras mayúsculas para nombres de componentes React.
+	- Evitar problemas de renderizado y advertencias.
+	- Configuración de Git en el terminal usando aplicaciones como Fork, GitKraken o Git.
+- **Otras Temáticas:**
+	- Explicación de la desestructuración de objetos en JavaScript.
+	- Extracción de propiedades de objetos en una línea de código.
+	- Simplificación del código mediante desestructuración.
+	- Enfoque en la eficiencia al usar desestructuración en componentes.
+	  
+	  **En resumen, el video proporciona una base sólida para comenzar a aprender JavaScript y React, cubriendo conceptos fundamentales y herramientas esenciales para el desarrollo web.**
